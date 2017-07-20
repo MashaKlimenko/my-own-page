@@ -1,0 +1,31 @@
+body {
+    width: 980px;
+    margin:20px auto;
+}
+
+#fox {
+    width: 70px;
+    height: 70px;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+#bord {
+    height: 459px;
+    width:459px;
+}
+.text-near-bord {
+    height:165px;
+    width:481px;
+}
+#groupmates {
+    width: 515px;
+    height:515px;
+    margin-top: 20px;
+}
+.text-near-groupmates {
+    height:116px;
+    width:428px;
+}
