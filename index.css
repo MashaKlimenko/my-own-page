@@ -1,31 +1,149 @@
 body {
-    width: 980px;
+    width: 960px;
     margin:20px auto;
 }
 
-#fox {
-    width: 70px;
-    height: 70px;
-    border-color: #FFFFFF;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 50%;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C5A695;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 16px 30px;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: larger;
+}
+
+li a:hover {
+    background-color: #7C7D5E;
 }
 
 #bord {
     height: 459px;
-    width:459px;
+    width: 459px;
+    float: left; 
+    margin: 0 7px 7px 0;
 }
-.text-near-bord {
-    height:165px;
-    width:481px;
+
+.aboutme {
+    text-align: justify;
+    padding-bottom: 10px;
 }
+
 #groupmates {
-    width: 515px;
-    height:515px;
-    margin-top: 20px;
+    width: 495px;
+    height:350px;
+    float: right; 
+    margin: 7px 0 7px 7px;
 }
-.text-near-groupmates {
-    height:116px;
-    width:428px;
+
+.backgroundline {
+    height:30px;
+    background-color: #C5A390;
+    text-align: center;
+    padding-top: 5px;
 }
+
+#feedback {
+    background-image: url(img/mountains.jpg);
+}
+
+
+#footer {
+    height:100px;
+    background-color: #191C13;
+}
+
+#copyright {
+    color: #FFFFFF;
+    text-decoration: underline;
+    float: left;
+    margin: auto 0 auto 30px;
+    padding-top: 40px;
+}
+
+#number {
+    color: #FFFFFF;
+    text-decoration: underline;
+    float: right;
+    margin: auto 30px auto 0;
+    padding-top: 40px;
+}
+
+.flower-font {
+    font-family: 'Indie Flower', cursive;
+}
+
+.merienda-font {
+    font-family: 'Merienda', cursive;
+}
+
+.p-font {
+    font-family: 'Clicker Script', cursive;
+}
+
+.great-vibes-font {
+    font-family: 'Great Vibes', cursive;
+    font-size: x-large;
+    text-decoration: underline;
+}
+.feedback1 {
+    position: relative;
+    width: 960px; 
+    height:455px;
+}
+
+.form1 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 350px;
+    height: 350px;
+}
+
+.new-figure {
+    position: absolute;
+    top: 55px;
+    left: 100px;
+    width: 350px;
+    height: 350px;
+}
+
+#facebook-icon {
+    position: absolute;
+    top: 50px;
+    width: 70px;
+    height: 70px;
+}
+
+#insta-icon {
+   position: absolute;
+   top: 50px;
+   left: 180px;
+   width: 70px;
+   height: 70px;
+}
+
+#gmail-icon {
+    position: absolute;
+    left: 90px;
+    top: 170px;
+    width: 70px;
+    height: 70px;
+}
+
+ .headline-for-icons {
+     padding-left: 40px;
+     text-decoration: underline;
+ } 
