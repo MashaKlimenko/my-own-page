@@ -1,6 +1,6 @@
 body {
     width: 960px;
-    margin:20px auto;
+    margin:10px auto;
 }
 
 ul {
@@ -198,3 +198,5 @@ input[type=submit] {
     background-color: #7C7D5E; 
     color: black;
 }
+
+
