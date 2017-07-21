@@ -132,9 +132,9 @@ li a:hover {
     height:455px;
 }
 
-.form1 {
+.contact-form {
     position: absolute;
-    top: 50px;
+    top: 70px;
     right: 50px;
     width: 350px;
     height: 350px;
@@ -171,7 +171,7 @@ li a:hover {
     height: 70px;
 }
 
- .headline-for-icons {
+.headline-for-icons {
      padding-left: 40px;
      text-decoration: underline;
  } 
@@ -189,9 +189,6 @@ input[type=submit] {
     border-radius: 7px; 
     font-family: 'Shrikhand', cursive;
     font-size: 18px;
-    
-    
-    
 }
 
 .button:hover {
