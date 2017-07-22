@@ -1,6 +1,6 @@
 body {
-    width: 960px;
-    margin:10px auto;
+    max-width: 960px;
+    margin:0 auto;
 }
 
 ul {
@@ -29,23 +29,41 @@ li a:hover {
     background-color: #7C7D5E;
 }
 
+article {
+    padding: 10px;
+}
+/*
 #bord {
     height: 459px;
     width: 459px;
-    float: left; 
-    margin: 0 7px 7px 0;
+    display: block;
+    width: 100%;
+     float: left 
 }
-
+*/
+/*
 .aboutme {
     text-align: justify;
     padding-bottom: 10px;
 }
-
+*/
+/*
 #groupmates {
     width: 495px;
-    height:350px;
-    float: right; 
-    margin: 7px 0 7px 7px;
+    height:495px; 
+    display: block;
+    width: 100%;
+     float: right; 
+}
+*/
+aside img {
+    display: block;
+    width: 100%;
+}
+
+figure img {
+    display: block;
+    width: 100%;
 }
 
 .backgroundline {
@@ -54,31 +72,31 @@ li a:hover {
     text-align: center;
     padding-top: 5px;
 }
-
+/*
 #new-summer {
     position: relative;
     width: 960px;
     height: 600px;
 }
-
+*/
 #pogulianka-fun {
-    position: relative;
+   /* position: relative; */
     width: 390px;
     height: 600px;
 }
 
 #zahar-berkut {
-    position: absolute;
+   /* position: absolute; 
     top: 3px;
-    left:391px;
+    left:391px; */
     width: 500px;
     height: 305px;
 }
 
 #pylypets-bike-park {
-    position: absolute;
+    /* position: absolute;
     top:311px;
-    left: 391px;
+    left: 391px; */
     width: 500px;
     height: 286px;
 }

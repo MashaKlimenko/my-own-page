@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+
+
+header, footer {
+    width: 100%;
+}
+
+main aside {
+    min-width: 40%;
+    /*display: flex;
+    justify-content: flex-end; */
+}
+/*
+article {
+    width: 50%;
+}*/
