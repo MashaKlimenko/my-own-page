@@ -37,3 +37,40 @@ main aside {
 #pogu_vs._zahar {
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 600px) {
+    
+/*aside {
+    display: flex;
+    flex-wrap: wrap;
+}*/
+/*
+aside div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}*/
+
+
+main {
+    flex-wrap: wrap;
+}
+
+#new-summer {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#feedback {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main article {
+    order: 1;
+}
+
+main aside {
+    order: 2;
+}
+}

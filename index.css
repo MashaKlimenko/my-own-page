@@ -37,6 +37,11 @@ article {
     padding: 10px;
 }
 
+#rider {
+    display: flex;
+    width: 100%;
+}
+
 aside img {
     display: block;
     width: 100%;
@@ -115,6 +120,7 @@ figure img {
 
 .p-font {
     font-family: 'Clicker Script', cursive;
+    font-size: 1.5em;
 }
 
 .great-vibes-font {
