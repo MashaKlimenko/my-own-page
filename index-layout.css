@@ -1,20 +1,39 @@
 body {
     display: flex;
     flex-wrap: wrap; 
-    
-}
-
-
-header, footer {
-    width: 100%;
 }
 
 main aside {
-    min-width: 40%;
-    /*display: flex;
-    justify-content: flex-end; */
+    max-width: 40%;
 }
-/*
-article {
-    width: 50%;
-}*/
+
+.experience-obj {
+    display: flex;
+    align-items: flex-start;
+}
+
+.experience-obj-text {
+    flex: 1;
+}
+
+.hobby-obj {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.hobby-obj-text {
+    flex: 2;
+    order: 1;
+} 
+
+#new-summer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+#pogu_vs._zahar {
+    flex-wrap: wrap;
+}
