@@ -40,17 +40,15 @@ main aside {
 
 @media screen and (max-width: 600px) {
     
-/*aside {
-    display: flex;
-    flex-wrap: wrap;
-}*/
-/*
 aside div {
-    display: flex;
-    flex-wrap: wrap;
     flex-basis: 100%;
-}*/
+    flex-wrap: wrap;
+}
 
+main article {
+    display: flex;
+    flex-wrap: wrap; 
+}
 
 main {
     flex-wrap: wrap;

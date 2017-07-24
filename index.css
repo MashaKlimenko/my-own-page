@@ -78,7 +78,7 @@ figure img {
 
 #feedback {
     background-image: url(img/mountains-new.jpg);
-    height:455px;
+    /*height:455px;*/
     width: 100%;
     background-size: cover;
     display: flex;
