@@ -45,7 +45,7 @@ body {
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 780px) {
 
 .experience-obj {
     flex-wrap: wrap;
@@ -61,6 +61,10 @@ body {
 
 .hobby-obj article, .hobby-obj aside {
     width: 100%;
+}
+
+.experience-obj aside, .hobby-obj aside {
+    margin-top: 0;
 }
 
 #new-summer {
