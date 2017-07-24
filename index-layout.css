@@ -12,6 +12,7 @@ body {
 }
 .experience-obj aside {
     width: 40%;
+    margin-top: 40px;
 }
 .experience-obj aside img {
     width: 100%;
@@ -27,6 +28,7 @@ body {
 
 .hobby-obj aside {
     width: 40%;
+    margin-top: 40px;
 }
 
 .hobby-obj aside img {
@@ -43,7 +45,7 @@ body {
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 
 .experience-obj {
     flex-wrap: wrap;
