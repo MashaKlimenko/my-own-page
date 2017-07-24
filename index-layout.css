@@ -3,35 +3,40 @@ body {
     flex-wrap: wrap; 
 }
 
-main aside {
-    max-width: 40%;
-}
-
 .experience-obj {
     display: flex;
-    align-items: flex-start;
 }
 
-.experience-obj-text {
-    flex: 1;
+.experience-obj article {
+    width: 60%;
+}
+.experience-obj aside {
+    width: 40%;
+}
+.experience-obj aside img {
+    width: 100%;
 }
 
 .hobby-obj {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
 }
 
-.hobby-obj-text {
-    flex: 2;
-    order: 1;
-} 
+.hobby-obj article {
+    width: 60%;
+}
+
+.hobby-obj aside {
+    width: 40%;
+}
+
+.hobby-obj aside img {
+    width: 100%;
+}
 
 #new-summer {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    
 }
 
 #pogu_vs._zahar {
@@ -39,19 +44,21 @@ main aside {
 }
 
 @media screen and (max-width: 600px) {
-    
-aside div {
-    flex-basis: 100%;
+
+.experience-obj {
     flex-wrap: wrap;
 }
+  
+.experience-obj article, .experience-obj aside {
+    width: 100%;
+}  
 
-main article {
-    display: flex;
-    flex-wrap: wrap; 
-}
-
-main {
+.hobby-obj {
     flex-wrap: wrap;
+}   
+
+.hobby-obj article, .hobby-obj aside {
+    width: 100%;
 }
 
 #new-summer {
@@ -62,13 +69,5 @@ main {
 #feedback {
     flex-wrap: wrap;
     justify-content: center;
-}
-
-main article {
-    order: 1;
-}
-
-main aside {
-    order: 2;
 }
 }
