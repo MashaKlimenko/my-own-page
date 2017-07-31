@@ -47,8 +47,7 @@ aside img {
     width: 100%;
 }
 
-figure img {
-    display: block;
+img {
     width: 100%;
 }
 
@@ -57,23 +56,6 @@ figure img {
     background-color: #C5A390;
     text-align: center;
     
-}
-
-#pogulianka-fun {
-    width: 390px;
-    height: 600px;
-}
-
-#zahar-berkut {
-    margin-top: 2px;
-    width: 500px;
-    height: 305px;
-}
-
-#pylypets-bike-park {
-    margin-top: 4px;
-    width: 500px;
-    height: 286px;
 }
 
 #feedback {
@@ -132,16 +114,19 @@ figure img {
 .contact-form {
     width: 350px;
     height: 350px;
+    margin-top: 25px;
 }
 
 .new-figure {
     width: 350px;
-    height: 350px;
-}
-#icons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+}
+#icons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #facebook-icon {
@@ -152,18 +137,12 @@ figure img {
 #insta-icon {
    width: 70px;
    height: 70px;
-   margin-top: 70px; 
-   margin-left: 115px
+   margin-left: 67px;
 }
 
 #gmail-icon {
     width: 70px;
     height: 70px;
-    display: flex;
-}
-
-.fb_insta {
-    flex-wrap: wrap;
 }
 
 .headline-for-icons {

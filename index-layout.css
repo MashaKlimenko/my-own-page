@@ -35,15 +35,22 @@ body {
     width: 100%;
 }
 
-#new-summer {
+#image-block {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-#pogu_vs._zahar {
     flex-wrap: wrap;
 }
+
+img {
+    width: 100%;
+} 
+
+#pogulianka-fun {
+        width: 43%;
+    }
+#two-img {
+        width: 57%;
+    }
+
 
 @media screen and (max-width: 780px) {
 
@@ -67,9 +74,8 @@ body {
     margin-top: 0;
 }
 
-#new-summer {
-    flex-wrap: wrap;
-    justify-content: center;
+#pogulianka-fun, #two-img {
+    width: 100%;
 }
 
 #feedback {
