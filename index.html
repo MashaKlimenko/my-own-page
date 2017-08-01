@@ -9,6 +9,8 @@
         <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Kavoon" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="index.css">
@@ -20,16 +22,16 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="#links">Links</a>
+                            <a href="#links" class="smooth">Links</a>
                         </li>
                         <li>
-                            <a href="#contacts">Write me</a>
+                            <a href="#contacts" class="smooth">Write me</a>
                         </li>
                         <li>
-                            <a href="#events">Nearest events</a>
+                            <a href="#events" class="smooth">Nearest events</a>
                         </li>
                         <li>
-                            <a href="#biography">About me</a>
+                            <a href="#biography" class="smooth">About me</a>
                         </li>
                         <li>
                             <a href="#home">Home</a>
@@ -38,17 +40,19 @@
                 </nav>
             </header>
             <div>
-                <img src="img/rider.jpg" alt="Ride a bike in bike-park Pogulianka" id="rider">
+                <img src="img/me.jpg" alt="Ride a bike in bike-park Pogulianka" id="rider">
                 <hr>
             </div>
             <div class="experience-obj">
                 <article>
                     <h2 id="biography" class="headline"> About me...</h2>
                     <p>Hi! My name is Masha. I am 20 years old. I am a student, sportswoman and I like to do something crazy! I was born in Lviv on 28 August 1996 year. My mother is a Maths teacher,  and my brother is a businessman. My brother was a professional football-player, but now he has his own business in Poltava.</p> 
-                    <p>I was study at school for 9 years. Then I went to colledge, and studied there for 3 years. After that I entered to finance academy on 3d course and my speciality was "International economics". So I got a bachelor degree. In 2016 I got accepted to Lviv national University on speciality "Finance, customs business, and taxes". Now, I have just finished 5th course.</p>
-                    <p>Of course, I had some work experience. My first work was like  sushi-master at delivery "YOKO Sushi", and my secound job was cooker-sushi-master in coctail bar "Midnight", which is situated on Valova street.</p> 
-                    <p>I have a few close friends, but my best friend is Solomiya. I have known her since school.</p>
-                    <p>I am sociable person, and I like to meet new people. I like people with sence of hummor.</p>
+                    <blockquote>
+                    <p class="education">I was study at school for 9 years. Then I went to colledge, and studied there for 3 years. After that I entered to finance academy on 3d course and my speciality was "International economics". So I got a bachelor degree. In 2016 I got accepted to Lviv national University on speciality "Finance, customs business, and taxes". Now, I have just finished 5th course.</p>
+                    </blockquote>
+                    <p>Of course, I had some <span class="merienda-font"><b>work experience...</b></span> My first work was like  sushi-master at delivery "YOKO Sushi", and my secound job was cooker-sushi-master in coctail bar "Midnight", which is situated on Valova street.</p> 
+                    <p class="personality">I have a few close friends, but my best friend is Solomiya. I have known her since school.</p>
+                    <p class="personality">I am sociable person, and I like to meet new people. I like people with sence of hummor.</p>
                 </article>
                 <aside>
                     <img src="img/group.jpg" alt="My groupmates from university" id="groupmates">
@@ -88,14 +92,12 @@
                     <div class="new-figure">
                         <figcaption id="links" class="headline-for-icons merienda-font">Me in social networks:</figcaption>
                         <div id="icons">
-                            <div class="fb_insta">
                                 <a href="https://www.facebook.com/masha.klimenko.7" target="_blank">
                                     <img src="img/fb-art.png" alt="Little facebook icon" id="facebook-icon">
                                 </a>
                                 <a href="https://www.instagram.com/masha.klimenko.7/" target="_blank">
                                     <img src="img/instagram-icon.png" alt="Little instagram icon" id="insta-icon">
                                 </a>
-                            </div>
                             <img src="img/gmail-icon.png" alt="Little gmail icon" id="gmail-icon">
                         </div>
                     </div>
@@ -104,26 +106,32 @@
                     <form method="POST" action="https://formspree.io/mashaklimenko42@gmail.com">
                        <label>
                             <span class="merienda-font">Your name:</span>
-                            <input type="text" name="user-name" size="40" placeholder="Enter your name"/>
+                            <input type="text" name="user-name" id="name" size="41" placeholder="Enter your name"/>
                             <br>
                         </label>
                         <label>
                             <span class="merienda-font">Your email:</span>
-                            <input type="email" name="user-email" placeholder="user@example.com" size="40"/>
+                            <input type="email" name="user-email" id="email" placeholder="user@example.com" size="41"/>
                             <br>
                         </label>
                         <label>
                             <br>
-                            <textarea name="comment" rows="10" cols="41" placeholder="Your comment"></textarea>
+                            <textarea name="comment" id="comment" rows="10" cols="42" placeholder="Your comment"></textarea>
                         </label>
                         <br>
                         <input type="submit" value="SEND" class="button"/>
                     </form>
+                    <div id="form-result"></div>
                 </div>
             </div>
         <footer id="footer">
             <p id="copyright" class="flower-font">Mariia Klymenko</p>
             <p id="number" class="flower-font">+38 (067) 528 63 13</p>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
     </body>
 </html>

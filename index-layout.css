@@ -50,6 +50,11 @@ img {
 #two-img {
         width: 57%;
     }
+    
+.button{
+    display: flex;
+    justify-content: flex-end;
+}    
 
 
 @media screen and (max-width: 780px) {
@@ -76,6 +81,20 @@ img {
 
 #pogulianka-fun, #two-img {
     width: 100%;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*width: 100%;*/
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #feedback {

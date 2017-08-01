@@ -87,6 +87,13 @@ img {
     text-decoration: underline;
     margin-right: 30px;
 }
+.education {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.personality {
+    font-family: 'Shadows Into Light Two', cursive;
+}
 
 .headline {
     font-family: 'Kavoon', cursive;
@@ -112,21 +119,21 @@ img {
 }
 
 .contact-form {
-    width: 350px;
-    height: 350px;
+    width: 40%;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .new-figure {
-    width: 350px;
     display: flex;
     flex-wrap: wrap;
+    justify-content:center;
 }
 #icons {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #facebook-icon {
@@ -137,23 +144,22 @@ img {
 #insta-icon {
    width: 70px;
    height: 70px;
-   margin-left: 67px;
 }
 
 #gmail-icon {
     width: 70px;
     height: 70px;
+    /*margin-left: 25px;*/
 }
 
 .headline-for-icons {
-     padding-left: 90px;
      margin-bottom: 15px;
      text-decoration: underline;
  } 
  
 
 input[type=submit] {
-    margin-left: 200px;
+    /*margin-left: 200px;*/
     margin-top: 10px;
     padding:3px 30px; 
     background-color: #C5A390; 
