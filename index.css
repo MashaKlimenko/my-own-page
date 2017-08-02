@@ -2,32 +2,31 @@ body {
     max-width: 960px;
     margin:0 auto;
 }
-
-header, .backgroundline {
-    width: 100%;
-}
-
-ul {
-    list-style-type: none;
+.container {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #C5A695;
+    width: 100%;
 }
-li {
-    float: right;
+.navbar {
+    margin-bottom: 1px;
 }
-
-li a {
-    display: inline-block;
-    color: #000000;
-    text-align: center;
-    padding: 16px 30px;
-    text-decoration: none;
+.navbar-inverse .navbar-brand {
+    color: pink; 
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: x-large;
+}
+.navbar-inverse .navbar-nav li a {
+    color: pink;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
     font-size: larger;
 }
+
+.backgroundline {
+    width: 100%;
+}
+
 
 li a:hover {
     background-color: #7C7D5E;
@@ -53,7 +52,7 @@ img {
 
 .backgroundline {
     height:30px;
-    background-color: #C5A390;
+    background-color: #191C13;
     text-align: center;
     
 }
@@ -77,15 +76,19 @@ img {
 }
 
 #copyright {
-    color: #FFFFFF;
+    color: pink;
     text-decoration: underline;
     margin-left: 30px;
+    font-weight: bold;
+    font-size: larger;
 }
 
 #number {
-    color: #FFFFFF;
+    color: pink;
     text-decoration: underline;
     margin-right: 30px;
+    font-weight: bold;
+    font-size: larger;
 }
 .education {
     font-family: 'Shadows Into Light', cursive;
@@ -101,6 +104,8 @@ img {
 
 .flower-font {
     font-family: 'Indie Flower', cursive;
+    color: pink;
+    font-weight: bold;
 }
 
 .merienda-font {
@@ -162,7 +167,7 @@ input[type=submit] {
     /*margin-left: 200px;*/
     margin-top: 10px;
     padding:3px 30px; 
-    background-color: #C5A390; 
+    background-color: pink; 
     border-bottom: 2px solid #fff;
     border-right: 2px solid #fff;
     cursor:pointer;
@@ -173,7 +178,7 @@ input[type=submit] {
 }
 
 .button:hover {
-    background-color: #7C7D5E; 
+    background-color: violet; 
     color: black;
 }
 
