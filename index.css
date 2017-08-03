@@ -22,11 +22,14 @@ body {
     font-weight: bold;
     font-size: larger;
 }
-
 .backgroundline {
     width: 100%;
 }
-
+.col-sm-6 {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
 
 li a:hover {
     background-color: #7C7D5E;
