@@ -1,15 +1,15 @@
-var el = document.getElementById('submit');
-if(el){
+// var el = document.getElementById('submit');
+// if(el){
     
-addEventListener('click', function sendForm(e) {
-	e.preventDefault();
-    const form = document.getElementById('form');
-    if (form.checkValidity()) {
-    	alert('Form is OK')    
-    } else {
-    	alert('Form is not OK');
-    }   
-});
+// addEventListener('click', function sendForm(e) {
+// 	e.preventDefault();
+//     const form = document.getElementById('form');
+//     if (form.checkValidity()) {
+//     	alert('Form is OK')    
+//     } else {
+//     	alert('Form is not OK');
+//     }   
+// });
 
 
 $(function() {
@@ -33,9 +33,9 @@ function sendForm(e) {
          $('#form-result').html('<p>Thank you!</p>');
      })
      .fail(function(xhr, status, error){
-         $('#form-result').html(`<p>Sorry, there is an error: ${error}</p>`);
+         $('#form-result').html(`<p>Sorry, there is an error: ${xhr.responseText}</p>`);
      });
-}
+
 };
 
 
