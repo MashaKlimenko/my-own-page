@@ -1,6 +1,7 @@
-document.getElementById('submit').addEventListener('click', sendForm);
-
-function sendForm(e) {
+var el = document.getElementById('submit');
+if(el){
+    
+addEventListener('click', function sendForm(e) {
 	e.preventDefault();
     const form = document.getElementById('form');
     if (form.checkValidity()) {
@@ -8,7 +9,7 @@ function sendForm(e) {
     } else {
     	alert('Form is not OK');
     }   
-}
+});
 
 
 $(function() {
@@ -35,3 +36,8 @@ function sendForm(e) {
          $('#form-result').html(`<p>Sorry, there is an error: ${error}</p>`);
      });
 }
+};
+
+
+
+
